@@ -1,4 +1,4 @@
-```public class BinarySearch {
+public class BinarySearch {
 
     // Time Complexity -> O(log n)
     // Binary search works only on sorted arrays.
