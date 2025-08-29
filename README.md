@@ -13,7 +13,7 @@ This is mainly a **personal learning repo**, but if you want to add solutions in
 
 ## 🌍 Connect
 - LeetCode: [VisheshGarg](https://leetcode.com/u/Vishug18/)  
-- LinkedIn: [erVisheshGarg]([https://linkedin.com/in/your-profile](https://www.linkedin.com/in/ervisheshgarg/))  
+- LinkedIn: [erVisheshGarg](https://linkedin.com/in/your-profile](https://www.linkedin.com/in/ervisheshgarg/))  
 
 ---
 
