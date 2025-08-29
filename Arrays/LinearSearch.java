@@ -1,6 +1,6 @@
 
 
-```public class Main {
+public class Main {
     //Time Complexity -> O(n)
     //Since we run this program n times searching for every element in array 
     public static void main(String[] args) {
