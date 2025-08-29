@@ -1,0 +1,54 @@
+public class BinarySearch {
+
+    // Time Complexity -> O(log n)
+    // Binary search works only on sorted arrays.
+    // Think of it like searching for a word in a dictionary:
+    // Instead of checking each word one by one, you keep dividing the book in half.
+
+    public static void main(String[] args) {
+        int [] num = {1, 2, 3, 4, 5};  // Sorted array
+        int n = num.length;
+        int key = 5;  // The number we want to search
+
+        // start = 0 (first index), end = n-1 (last index)
+        int start = 0;
+        int end = n - 1;
+
+        // Call binary search
+        int index = binarySearch(num, key, start, end);
+
+        // Print the result
+        if (index != -1) {
+            System.out.println("Key is present at index " + index);
+        } else {
+            System.out.println("Key is not present in the array.");
+        }
+    }
+
+    // Binary Search function
+    public static int binarySearch(int[] nums, int key, int start, int end) {
+        // Keep searching while the search space is valid
+        while (start <= end) {
+            // Find the middle index
+            int mid = (start + end) / 2;
+
+            // If key is found at mid, return index
+            if (key == nums[mid]) {
+                return mid;
+            }
+
+            // If key is greater than middle element,
+            // ignore the left half and move start to mid+1
+            if (key > nums[mid]) {
+                start = mid + 1;
+            } 
+            // Otherwise, ignore the right half and move end to mid-1
+            else {
+                end = mid - 1;
+            }
+        }
+        // If not found, return -1
+        return -1;
+    }
+}
+
