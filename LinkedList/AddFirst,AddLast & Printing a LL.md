@@ -2,7 +2,7 @@
 
 ---
 
-# Singly Linked List Basics in Java
+# Singly Linked List Basics in Java   
 
 ## 📌 Introduction to Linked List
 
