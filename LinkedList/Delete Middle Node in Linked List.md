@@ -38,7 +38,7 @@ Given the `head` of a linked list, delete the **middle node**, and return the he
 
 ```java
 class Solution {
-    public ListNode deleteMiddle(ListNode head) {
+    public ListNode deleteMiddle(ListNode head) {  
         // Edge case: only one node
         if (head == null || head.next == null) {
             return null;
