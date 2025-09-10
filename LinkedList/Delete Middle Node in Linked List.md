@@ -75,7 +75,7 @@ class Solution {
 
 **Steps:**
 
-* **\[init]** slow = 1, fast = 1, prev = null
+* **\[init]** slow = 1, fast = 1, prev = null  
 * **\[iter1]** prev = 1, slow = 2, fast = 3
 * **\[iter2]** prev = 2, slow = 3, fast = 5
 * **\[stop]** fast.next == null → exit
