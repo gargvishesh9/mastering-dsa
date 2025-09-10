@@ -4,7 +4,7 @@
 
 ---
 
-## 📌 Problem Statement
+## 📌 Problem Statement   
 
 Given the `head` of a linked list, delete the **middle node**, and return the head of the modified list.
 
