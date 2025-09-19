@@ -35,7 +35,7 @@ class Solution {
         // ✅ Base Case: If stack is empty, push element
         if (s.isEmpty()) {
             s.push(data);
-            return;
+            return;  
         }
 
         // ✅ Pop element and recurse
