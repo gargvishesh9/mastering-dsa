@@ -6,7 +6,7 @@
 
 This program demonstrates how to **implement a stack data structure using a Linked List** in Java.
 Unlike `ArrayList`, here we use a **linked structure** to store stack elements dynamically.
-The stack still follows the **LIFO (Last In, First Out)** principle.
+The stack still follows the **LIFO (Last In, First Out)** principle.  
 
 ---
 
